@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Formulário</title>
 </head>
 <body>
@@ -15,55 +22,37 @@
             <div class="form-control">
 
                 <label for="username">Nome de usuário </label>
-                <input type="text" id="username"/>
+                <input type="text" id="username" placeholder="Digite seu nome de usúario"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small> Mensagem de erro</small>
 
             </div>
-        </form>
-
-        <form id="form" class="form">
-            <div class="form-control">
+        
+            <div class="form-control error">
 
                 <label for="email">Email </label>
-                <input type="text" id="email"/>
+                <input type="text" id="email" placeholder="Digite seu email"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small> Mensagem de erro</small>
 
             </div>
-        </form>
-
-        <form id="form" class="form">
-            <div class="form-control">
-
-                <label for="email">Email </label>
-                <input type="text" id="email"/>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
-                <small> Mensagem de erro</small>
-
-            </div>
-        </form>
-
-        <form id="form" class="form">
-            <div class="form-control">
+        
+            <div class="form-control success">
 
                 <label for="password">Senha </label>
-                <input type="text" id="password"/>
+                <input type="text" id="password" placeholder="Digite sua senha"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small> Mensagem de erro</small>
 
             </div>
-        </form>
-
-        <form id="form" class="form">
+      
             <div class="form-control">
 
                 <label for="password-confirmation">Confirme sua senha </label>
-                <input type="text" id="password-confirmation"/>
+                <input type="text" id="password-confirmation" placeholder="Digite sua senha novamente"/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small> Mensagem de erro</small>
@@ -79,3 +68,4 @@
     <script src="https://kit.fontawesome.com/e836f88df2.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
